@@ -539,20 +539,6 @@ export default function FounderForm() {
           </div>
         </div>
 
-        {/* Admin export */}
-        {submissions.length > 0 && (
-          <div className="mt-8 text-center">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={exportCSV}
-              className="rounded-full text-xs text-[#8A9AA0] border-[#D8E0DC]"
-            >
-              <Download className="w-3.5 h-3.5 mr-1.5" />
-              Exporter {submissions.length} candidature(s) en CSV
-            </Button>
-          </div>
-        )}
       </div>
     </section>
   );
